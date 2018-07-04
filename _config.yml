@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ﻿# Site settings
+=======
+# Site settings
+>>>>>>> 04eb1a003692e729d1e55e51cfcb11c43c5e4711
 title: Jine Blog
 SEOTitle: 코딩하는 지네 | Jine Blog
 header-img: img/home-bg.jpg
 email: dlswlgp9529@gmail.com
+<<<<<<< HEAD
 description: "통계를 전공하고 있고 IT학부를 복수전공 하고 있습니다.Web & Mobile, Software, back-end Lover"
+=======
+description: "통계를 전공하고 있고 IT학부를 복수전공 하고 있습니다.Web & Mobile, Software, back-end Lover，"
+>>>>>>> 04eb1a003692e729d1e55e51cfcb11c43c5e4711
 keyword: "jine, Jine, @Jine, @jine, Jine Blog"
 url: "http://blog.naver.com/dlswlgp9529"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -14,11 +22,19 @@ future: true
 
 # SNS settings
 RSS: false
+<<<<<<< HEAD
 weibo_username:    
 zhihu_username:    
 github_username:    
 twitter_username:  jine9529
 #facebook_username: 지혜
+=======
+weibo_username:     
+zhihu_username:     
+github_username:    
+twitter_username:   jine9529
+#facebook_username:  지혜
+>>>>>>> 04eb1a003692e729d1e55e51cfcb11c43c5e4711
 #linkedin_username:  지-혜-dlswlgp9529@naver.com
 
 
@@ -96,11 +112,20 @@ friends: [
     #     title: "jine 블로그",
     #     href: "http://jine9529.github.io"
     # },{
+<<<<<<< HEAD
         title: "내 블로그",
         href: "http://blog.naver.com/dlswlgp9529"
     },{
         title: "김정현 블로그",
         href: "http://SuperKimJungHyun.github.io/"
+=======
+        title: "김정현",
+        href: "http://SuperKimJungHyun.github.io/"
+    },{
+        title: "내 블로그",
+        href: "http://blog.naver.com/dlswlgp9529"
+  
+>>>>>>> 04eb1a003692e729d1e55e51cfcb11c43c5e4711
     }
         
 ]
