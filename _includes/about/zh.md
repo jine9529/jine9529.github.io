@@ -1,12 +1,10 @@
-> 写写代码，做做设计，  
-> 离开世界之前，一切都是过程。
+> 소개
 
-Hey，我是黄玄，病毒种，进化程度不明，多出没于[博客](https://huangxuan.me)、[微博](weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
+안녕하세요, 코딩하는 지네입니다. *@jine* (JIHYE, IN), 현재 성신여자대학교에 재학중입니다. 
 
-职业是软件工程师，[Web 工会](https://medium.com/ben-and-dion/team-web-3315aa447fb2#.359a9c6cl)活跃成员。目前在 [Facebook](https://www.facebook.com/) 写 [Reason](https://reasonml.github.io/) 与 [Messenger.com](http://messenger.com/) ，曾被招募为淘宝网 · [阿里旅行](http://alitrip.com)前端工程师、微影时代 · [微票儿](http://www.wepiao.com/?r=movie)前端基础工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)。
+최근에  [github blog](https://jine9529.github.io/)
 
-一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/huxpro)、[演说.io](https://zhuanlan.zhihu.com/p/21280918)。 
-
+I am studing Statistic and will graduate from [SungShin University of Korea](http://www.sungshin.ac.kr/statistics/html/main/index.html) by 2016, and am studying Computer Software at [SungShin University of Korea](http://www.sungshin.ac.kr/it/html/main/index.html) from 2017.
 
 ##### Talks
 
@@ -29,3 +27,27 @@ Hey，我是黄玄，病毒种，进化程度不明，多出没于[博客](https
 [7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
 [8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
 [9]: //huangxuan.me/jsconfcn2017/
+
+> introduce.
+
+
+Hi, I am *@jine* (JIHYE, IN), a student in SUNGSHIN UNIVERSITY. 
+
+I am currently writing on [github blog](https://jine9529.github.io/)
+
+I am studing Statistic and will graduate from [SungShin University of Korea](http://www.sungshin.ac.kr/statistics/html/main/index.html) by 2016, and am studying Computer Software at [SungShin University of Korea](http://www.sungshin.ac.kr/it/html/main/index.html) from 2017.
+
+
+##### Talks
+
+
+- [CSS Still Sucks 2015][2] · 2015
+- [네이버 블로그][1] · 2018
+
+
+
+[1]: //http://blog.naver.com/dlswlgp9529/
+[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
+
+
+
