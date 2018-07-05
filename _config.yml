@@ -1,4 +1,4 @@
-# Site settings
+﻿# Site settings
 title: Jine Blog
 SEOTitle: 코딩하는 지네 | Jine Blog
 header-img: img/home-bg.jpg
@@ -15,7 +15,7 @@ future: true
 RSS: false
 weibo_username:     
 zhihu_username:     
-github_username:    
+github_username:   jine9529 
 twitter_username:   jine9529
 #facebook_username:  지혜
 #linkedin_username:  지-혜-dlswlgp9529@naver.com
@@ -97,8 +97,5 @@ friends: [
     # },{
         title: "내 블로그",
         href: "http://blog.naver.com/dlswlgp9529"
-    },{
-        title: "김정현 블로그",
-        href: "http://SuperKimJungHyun.github.io/"
     }
 ]
