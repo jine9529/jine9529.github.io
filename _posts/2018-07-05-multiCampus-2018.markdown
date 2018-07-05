@@ -1,0 +1,57 @@
+---
+
+layout:     post
+
+title:      "Java Class Day03 2018"
+
+subtitle:   " \"MultiCampus\""
+
+date:       2018-07-05 09:00:00
+
+author:     "Jine"
+
+header-img: "img/post-bg-2015.jpg"
+
+catalog: true
+
+tags:
+    - 生活
+
+---
+
+
+
+scanner.nextInt()
+
+4바이트만 읽어버림, Enter은 빼놓고감
+
+scanner.nextLine()
+
+Enter 입력때까지 읽어들임
+
+inteqer.parseint(문자열tmp)
+
+입력받은 문자열 tmp를 숫자로 변환
+
+
+
+
+
+{% alert info %}
+
+System.out.println( (int)(Math.random() * 10) +1 );
+
+{% endalert %}
+
+
+
+Math라는 꾸러미안에 있는 random을 사용하는데 1부터 random으로 숫자 10개를 출력한다.
+
+
+
+switch문
+
+가위, 바위, 보 예제
+
+계절출력 예제
+
