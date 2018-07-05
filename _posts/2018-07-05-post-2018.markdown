@@ -6,8 +6,7 @@ author:     "Jine"
 header-img: "img/post-bg-miui6.jpg"
 tags:
     - Jine
-    - MIUI
-    - Android
+
 ---
 
 [네이버](wwww.naver.com)
