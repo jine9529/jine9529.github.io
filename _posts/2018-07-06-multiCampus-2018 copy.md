@@ -21,7 +21,7 @@ tags:
 ---
 
 
-### 배열
+###배열
 > 정의
 
 <b>같은 타입 변수들의 모임</b>
@@ -49,7 +49,7 @@ numbers = new int [6]; //정수바구니 6개가 모인 배열을 힙 영역에 
 <br>
 
 > 주저리주저리
- 
+
 - 배열이름**.**length
 ```java
 int [ ] arr = new int [5];
@@ -58,8 +58,52 @@ int tmp = arr.length;
 
 - ArrayIndexOutOfBoundsException 예외
 배열의 인덱스가 유효한 범위를 벗어났다는 에러
+```java
+int [] score = new int [5];
+for (int i = 0; i<6; i++) { //실수로 조건식을 변경하지 않음
+	System.out.println(score[i]); //에러발생!
+}
+```
+배열의 길이가 변경되면 for문 조건의 범위도 변경해야 하지만 잊고 실행한다면
+<br>for문은 배열의 유요한 인덱스 범위인 0~4를 넘어 5까지 반복하기 때문에
+5번째에서 ArrayIndexOutBoundsException 예외가 발생하여 비정상적으로 종료된다.
 
-런타임을 길게 만드는 아이
-어레이 아웃 인댁스 아웃
+ - 해결 (score.length 사용)
+ ```java
+ int [] score = new int [5];
+ for(int i=0; i<score.length; i++){
+ 	System.out.println(score[i]);
+ }
+ ```
+<br>
 
+> 배열의 모든 요소 출력 예제
 
+```java
+1. for(int i =0; i < arr.length; i++)
+	System.out.println(arr[i]);
+2. for(int a: arr)
+    System.out.println(a);
+```
+2번은 arr 배열에 담긴 요소들은 int a 자리에 하나씩 넣어 출력하는 것이다.
+<br>
+
+> 배열의 초기화
+
+- 배열의 생성과 초기화를 동시에 하는 경우에는 new int[ ] 생략가능
+```java
+int[ ] score = new int[ ]{50, 60, 70, 80, 90};
+int[ ] score = {50, 60, 70, 80, 90}; // new int[ ]생략가능
+```
+- 배열의 선언과 생성을 따로하는 경우에는 생략불가
+```java
+int[ ] score;
+score = new int[ ]{50, 60, 70, 80, 90}; //OK
+score = {50, 60, 70, 80, 90}; //에러. new int[ ]생략불가
+```
+-매개변수로 int배열을 받는 add 메서드를 호출하는 경우도 생략불가
+```java
+int add(int[ ] arr) { /*내용 생략*/ }	//add메서드
+int result = add( new int[ ] {100, 90, 80, 70, 60}); //OK
+int result = add( {100, 90, 80, 70, 60}); //에러. new int[ ] 생략불가
+```
