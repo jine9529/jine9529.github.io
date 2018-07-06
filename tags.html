@@ -23,7 +23,7 @@ header-img: "img/tag-bg.jpg"
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
+            <!-- 태그 -->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -31,12 +31,12 @@ header-img: "img/tag-bg.jpg"
 			</div>
 
             <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
+                태그 명명 규칙：
+                    <li>한국어 선호</li>
+                    <li>외국꺼는 영어를 선호합니다.</li>
             </blockquote>-->
 
-            <!-- 标签列表 -->
+            <!-- 태그목록 -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
