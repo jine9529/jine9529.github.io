@@ -144,6 +144,8 @@ public class ArrayPrint {
 	}
 }
 ```
+![image](https://user-images.githubusercontent.com/33712866/42359574-a0f5584c-811d-11e8-9a17-0809aa51ddb4.png)
+
 <br>
 
 > 예제 5-11 빈도수 구하기
@@ -169,10 +171,17 @@ public class ArrayCount {
 	}
 }
 ```
-<br>길이가 10인 배열을 만들고 0과 9사이의 임의의 값으로 초기화한다.
+길이가 10인 배열을 만들고 0과 9사이의 임의의 값으로 초기화한다.
 <br>이 배열에 저장된 각 숫자가 몇 번 반복해서 나타나는지를 세어서 배열 counter에 담은 화면을 출력한다.
+
+<br>counter[numArr[i]]++;	// i의 값이 0인 경우를 가정하면,
+<br>-> counter[numArr[0]]++;	//numArr[0]의 값은 4이다.
+<br>-> counter[4]++;	//counter[4]의 값을 1 증가시킨다.
+
 
 <br>실행결과
 ![image](https://user-images.githubusercontent.com/33712866/42359323-1af7a91c-811c-11e8-9e00-ca4a5f24f431.png)
+
+
 
 
