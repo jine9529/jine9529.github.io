@@ -13,13 +13,11 @@ I am studing Statistic and will graduate from [SungShin University of Korea](htt
 ##### Talks
 
 
-- [CSS Still Sucks 2015][2] · 2015
 - [네이버 블로그][1] · 2018
 
 
 
 [1]: //http://blog.naver.com/dlswlgp9529/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
 
 
 
