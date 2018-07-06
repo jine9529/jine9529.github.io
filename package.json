@@ -1,14 +1,14 @@
 {
-    "name": "hux-blog",
-    "title": "Hux Blog",
-    "author": "Hux <huxpro@gmail.com>",
+    "name": "Jine-blog",
+    "title": "Jine Blog",
+    "author": "Jine <jine9529@gmail.com>",
     "version": "1.7.0",
-    "homepage": "http://huxpro.github.io",
+    "homepage": "http://jine9529.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Huxpro/huxpro.github.io"
+        "url": "https://github.com/jine9529/jine9529.github.io"
     },
-    "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
+    "bugs": "https://github.com/jine9529/jiine9529.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
