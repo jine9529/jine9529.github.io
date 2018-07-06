@@ -17,15 +17,16 @@ catalog: true
 tags:
     - MultiCampus
     - Java
+    - Array
 
 ---
 
 
-###배열
+### 배열
 > 정의
 
 <b>같은 타입 변수들의 모임</b>
-<br><br>ex)int[ ] arr;
+<br><br>ex) int[ ] arr;
 <br>-> 배열을 기억할 수 있는 위치지정 (위치를 담을 수 있는 변수 arr)
 <br>new int[ 10 ];
 <br>-> heap 영역에 10칸의 정수공간이 생겨난다.
@@ -33,12 +34,13 @@ tags:
 ```java
 int [] numbers ; //정수배열 데이터의 주소를 담을 수 있는 바구니
 numbers = new int [6]; //정수바구니 6개가 모인 배열을 힙 영역에 생성.
-						//생성한 데이터(배열)의 주소를 갖다줌
+				//생성한 데이터(배열)의 주소를 갖다줌
 ```
+<br>
 
 > 왜 사용하는 가
 
-<br>많은 양의 데이터를 변수에 담아둘 필요가 있다면 그 데이터의 크기만큼 바구니가 필요하다.
+많은 양의 데이터를 변수에 담아둘 필요가 있다면 그 데이터의 크기만큼 바구니가 필요하다.
 <br>수많은 데이터를 수동으로 만들면 힘드므로 배열을 사용하여 **같은 타입의 변수**를 **원하는 만큼** 편리하게 한번에 생성 가능하다.
 <br>
 
@@ -107,3 +109,70 @@ int add(int[ ] arr) { /*내용 생략*/ }	//add메서드
 int result = add( new int[ ] {100, 90, 80, 70, 60}); //OK
 int result = add( {100, 90, 80, 70, 60}); //에러. new int[ ] 생략불가
 ```
+<br>
+
+> 추가
+
+**숫자로 정렬**되어 있으면 자료찾기 수월함
+**인덱싱**이 되어있으면 더 빨리 찾을 수 있음
+
+> 정렬예제
+
+첫번째 자리와 뒷숫자들을 비교하고 가장큰수와 자리바꿈
+두번째 자리와 뒷숫자들을 비교하고 가장큰수와 자리바꿈
+(반복시행 하여 정렬)
+```java
+public class ArrayPrint {
+	public static void main(String[] args) {
+		int[] arr = { 5, 3, 7, 2, 8, 1, 4 };
+
+		for (int j = 0; j < arr.length; j++) {
+			int max = arr[j];
+			int maxIndex = j;
+			for (int i = j; i < arr.length; i++) {
+				if (max < arr[i]) {
+					max = arr[i];
+					maxIndex = i;
+				}
+			}
+			int tmp = arr[j];
+			arr[j] = arr[maxIndex];
+			arr[maxIndex] = tmp;
+		}
+		for (int a : arr)
+			System.out.println(a);
+	}
+}
+```
+<br>
+
+> 예제 5-11 빈도수 구하기
+
+```java
+public class ArrayCount {
+	public static void main(String[] args) {
+		int[ ] numArr = new int[10];
+		int[ ] counter = new int[10];
+
+		for(int i = 0; i < numArr.length ; i++) {
+			numArr[i] = (int)(Math.random()*10);
+			System.out.print(numArr[i]);
+		}
+		System.out.println();
+
+		for(int i=0; i<numArr.length; i++) {
+			counter[numArr[i]]++;
+		}
+		for(int i=0; i<numArr.length; i++) {
+			System.out.println(i + "의 개수 :" + counter[i]);
+		}
+	}
+}
+```
+<br>길이가 10인 배열을 만들고 0과 9사이의 임의의 값으로 초기화한다.
+<br>이 배열에 저장된 각 숫자가 몇 번 반복해서 나타나는지를 세어서 배열 counter에 담은 화면을 출력한다.
+
+<br>실행결과
+![image](https://user-images.githubusercontent.com/33712866/42359323-1af7a91c-811c-11e8-9e00-ca4a5f24f431.png)
+
+
