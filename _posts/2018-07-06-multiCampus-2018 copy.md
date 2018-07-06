@@ -70,6 +70,7 @@ for (int i = 0; i<6; i++) { //실수로 조건식을 변경하지 않음
 배열의 길이가 변경되면 for문 조건의 범위도 변경해야 하지만 잊고 실행한다면
 <br>for문은 배열의 유요한 인덱스 범위인 0~4를 넘어 5까지 반복하기 때문에
 5번째에서 ArrayIndexOutBoundsException 예외가 발생하여 비정상적으로 종료된다.
+![image](https://user-images.githubusercontent.com/33712866/42361057-4fd4a602-8127-11e8-9fc8-488a6d28eef4.png)
 
  - 해결 (score.length 사용)
  ```java
@@ -104,7 +105,7 @@ int[ ] score;
 score = new int[ ]{50, 60, 70, 80, 90}; //OK
 score = {50, 60, 70, 80, 90}; //에러. new int[ ]생략불가
 ```
--매개변수로 int배열을 받는 add 메서드를 호출하는 경우도 생략불가
+- 매개변수로 int배열을 받는 add 메서드를 호출하는 경우도 생략불가
 ```java
 int add(int[ ] arr) { /*내용 생략*/ }	//add메서드
 int result = add( new int[ ] {100, 90, 80, 70, 60}); //OK
@@ -116,7 +117,7 @@ int result = add( {100, 90, 80, 70, 60}); //에러. new int[ ] 생략불가
 > 추가
 
 **숫자로 정렬**되어 있으면 자료찾기 수월함
-**인덱싱**이 되어있으면 더 빨리 찾을 수 있음
+<br>**인덱싱**이 되어있으면 더 빨리 찾을 수 있음
 
 > 정렬예제
 
@@ -193,10 +194,75 @@ n-1번째와 n번째를 보고...n번째가 더 작으면 둘이 바꿔
 첫번째와 두번째를 보고...두번째가 더 작으면 둘이 바꿔
 n-2번째와 n-1번째를 보고...n-1번째가 더 작으면 둘이 바꿔
 -> n-1번째 숫자가 정해짐
+(반복)
+```java
+public class Test {
+	public static void main(String[] args) {
+		int[] arr = { 5, 3, 7, 2 };
 
-...
+		int tmp = 0;
+
+		for (int j = 0; j < arr.length - 1; j++) {
+			for (int i = 0; i < arr.length - 1; i++) {
+				if (arr[i] > arr[i + 1]) {
+					tmp = arr[i];
+					arr[i] = arr[i + 1];
+					arr[i + 1] = tmp;
+				}
+			}
+		}
+		for (int a : arr)
+			System.out.print(a + " ");
+	}
+}
+```
+실행결과
+![image](https://user-images.githubusercontent.com/33712866/42360419-abf5a0c0-8123-11e8-816c-23b05aec23d6.png)
+<br>
 
 > 퀵정렬 (Quick Sort)
 
 계속 부분으로 쪼개서 복잡도를 낮춘다.
-한쪽은 피벗보다 작게 한쪽은 피벗보다 크게!
+<br>한쪽은 피벗보다 작게 한쪽은 피벗보다 크게!
+
+### 2차원 배열
+
+-  NullPointerException
+
+참조변수에 값이 없는데 꾸러미 안에 값을 까보니 없다!
+```java
+public class Test {
+	public static void main(String[] args) {
+
+		int[][] arr = new int[3][];
+		arr[0][0] = 10;
+		System.out.println(arr.length);
+	}
+}
+```
+![image](https://user-images.githubusercontent.com/33712866/42361018-0e4183e0-8127-11e8-841f-ecd982c83516.png)
+<br>
+
+> 행렬끼리 덧셈 예제
+
+```java
+public class MatrixTest {
+	public static void main(String[] args) {
+		int[][] matrix1 = {{2,3},{4,2}};
+		int[][] matrix2 = {{4,1},{3,7}};
+		int[][] result = new int[2][2];
+
+		for(int i=0 ;i<matrix1.length; i++) {
+			for(int j=0; j<matrix2.length; j++) {
+				result[i][j] = matrix1[i][j] + matrix2[i][j];
+			}
+		}
+		for(int i=0; i<2; i++) {
+			for(int j=0; j<2; j++) {
+				System.out.printf("%3d ", result[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+```
