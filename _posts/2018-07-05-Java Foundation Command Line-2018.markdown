@@ -1,10 +1,9 @@
 ---
-
 layout:     post
 
-title:      "Java Class Day03 2018"
+title:      "Java Foundation Command Line"
 
-subtitle:   " \"MultiCampus\""
+subtitle:   " \"Java Class Day03 2018\""
 
 date:       2018-07-05 09:00:00
 
@@ -17,7 +16,7 @@ catalog: true
 tags:
     - MultiCampus
     - Java
-
+    - Command Line
 ---
 
 

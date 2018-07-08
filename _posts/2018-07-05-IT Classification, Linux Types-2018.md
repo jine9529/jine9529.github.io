@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Network"
+title:      "IT Classification, Linux Types"
 subtitle:   " \"Linux Study Day01\""
 date:       2018-07-06 19:00:00
 author:     "Jine"
@@ -12,12 +12,14 @@ tags:
     - CentOS7
     - Xshell6
     - IT
+    - OSI 7Layer
 ---
 
 ### IT분야
 
 1. 시스템
-  - 하드웨어
+- 하드웨어
+
   - 소프트웨어(시스템소프트웨어, 응용소프트웨어)
 2. 네트워크
   - OSI 7Layer
@@ -73,7 +75,7 @@ OSI(Open Systems interconnerction Reference Model)은 국제표준화기구 (ISO
 
 ### Linux OS
 
-> 리눅스의 원천
+> ##### 리눅스의 원천
 
 유닉스가 업그레이드 되어 무료로 받을수 있는 OS가 리눅스이다.
 
@@ -83,7 +85,7 @@ OSI(Open Systems interconnerction Reference Model)은 국제표준화기구 (ISO
 
 
 
-> 종류
+> ##### 종류
 
 1. 데비안 (데비안계열)
 <br>특징 : 패키지설치와 업그레이드 혹인 다른 패키지의 의존성등을 apt를 이용하여 쉽게 설정할수 있다.
