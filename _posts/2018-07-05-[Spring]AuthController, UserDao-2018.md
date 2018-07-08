@@ -2,7 +2,7 @@
 layout:     post
 title:      "[Spring]AuthController, UserDao"
 subtitle:   " \"Java Spring Study\""
-date:       2018-07-06 00:00:00
+date:       2018-07-07 10:00:00
 author:     "Jine"
 header-img: "img/post-bg-alitrip.jpg"
 tags:
