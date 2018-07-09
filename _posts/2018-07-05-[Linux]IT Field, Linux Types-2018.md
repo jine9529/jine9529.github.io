@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[Linux]IT Classification, Linux Types"
+title:      "[Linux]IT Field, Linux Types"
 subtitle:   " \"Linux Study Day01\""
 date:       2018-07-06 19:00:00
 author:     "Jine"
