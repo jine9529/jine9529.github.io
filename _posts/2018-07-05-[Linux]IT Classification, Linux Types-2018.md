@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "IT Classification, Linux Types"
+title:      "[Linux]IT Classification, Linux Types"
 subtitle:   " \"Linux Study Day01\""
 date:       2018-07-06 19:00:00
 author:     "Jine"
@@ -8,10 +8,7 @@ header-img: "img/about-bg-walle.jpg"
 catalog: true
 tags:
     - Linux
-    - VirtualBox
-    - CentOS7
-    - Xshell6
-    - IT
+    - IT Field
     - OSI 7Layer
 ---
 

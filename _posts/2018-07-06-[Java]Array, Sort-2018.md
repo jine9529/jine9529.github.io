@@ -1,7 +1,7 @@
 ---
 layout:     post
 
-title:      "Java Array, Sort Algorithm"
+title:      "[Java] Array, Sort Algorithm"
 
 subtitle:   " \"Java Class Day04 2018\""
 

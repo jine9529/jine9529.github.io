@@ -1,7 +1,7 @@
 ---
 layout:     post
 
-title:      "Java Foundation Command Line"
+title:      "[Java]Foundation Command Line"
 
 subtitle:   " \"Java Class Day03 2018\""
 
