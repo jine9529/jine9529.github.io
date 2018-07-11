@@ -230,6 +230,8 @@ public class BankApp {
 			System.out.println("3. 출금");
 			System.out.println("4. 이체");
 			System.out.println("5. 계좌조회");
+			System.out.println("6. vip고객 조회");
+			System.out.println("7. 평균");
 			System.out.println("0. 종료");
 			userSel = Integer.parseInt(scan.nextLine());
 
@@ -337,6 +339,35 @@ public class BankApp {
 				}
 
 			} 
+			else if(userSel == 6) {
+				Account temp=new Account();
+				for(int i=0;i<accountCount-1;i++)
+					for(int j=0;j<accountCount-1;j++) {
+						if(account[j].getBalance()<account[j+1].getBalance()) {
+							temp = account[j] ;
+							account[j] = account[j+1];
+							account[j+1] = temp;
+					}
+				}
+						
+				Scanner scanner = new Scanner(System.in);
+				System.out.println("상위 몇 명을 보고싶은가요? 입력하세요");
+				int numVip = Integer.parseInt(scanner.nextLine());
+				System.out.println("은행의 vip고객의 정보입니다.");
+				for(int i=0; i<numVip; i++) {
+					System.out.printf("%d. %s 고객(계좌번호 : %s)의 통장잔고는 %d입니다.\n", i+1, account[i].getOwner(),account[i].getId(),account[i].getBalance());					
+					}
+			}
+			else if( userSel == 7) {
+				int sum = 0;
+				for(int i=0; i<accountCount; i++) {
+					sum += account[i].getBalance();
+				}
+				System.out.printf("은행고객들의 재산 평균은 %d원 입니다.\n", (int)sum/accountCount);
+			}
+		
+		
+			
 			else if(userSel == 0)
 				break;
 			else
@@ -344,7 +375,6 @@ public class BankApp {
 		}
 	}
 }
-
 ```
 
 
