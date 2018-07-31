@@ -8,8 +8,6 @@ header-img: "img/about-bg-walle.jpg"
 catalog: true
 tags:
     - Linux
-    - IT Field
-    - OSI 7Layer
 ---
 
 ### IT분야

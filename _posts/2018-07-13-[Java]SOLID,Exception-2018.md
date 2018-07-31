@@ -15,9 +15,7 @@ catalog: true
 
 tags:
     - MultiCampus
-    - Java
-    - Exception
-    - Solid
+
 
 ---
 

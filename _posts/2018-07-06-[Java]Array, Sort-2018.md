@@ -15,9 +15,6 @@ catalog: true
 
 tags:
     - MultiCampus
-    - Java
-    - Array
-    - Sort
 
 ---
 

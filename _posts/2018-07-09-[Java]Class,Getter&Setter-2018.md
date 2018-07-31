@@ -6,9 +6,7 @@ date:       2018-07-09 09:00:00
 author:     "Jine"
 header-img: "img/post-bg-js-module.jpg"
 tags:
-    - Java
-    - Class
-    - Getter&Setter
+    - MultiCampus
 ---
 
 ## 클래스와 메소드

@@ -15,7 +15,7 @@ catalog: true
 
 tags:
     - MultiCampus
-    - Java
+
 ---
 
 ##### VCM

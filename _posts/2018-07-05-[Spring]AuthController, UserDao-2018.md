@@ -6,10 +6,7 @@ date:       2018-07-07 10:00:00
 author:     "Jine"
 header-img: "img/post-bg-alitrip.jpg"
 tags:
-    - DB
-    - Java
     - Spring
-    - ORM
 ---
 
 ERD

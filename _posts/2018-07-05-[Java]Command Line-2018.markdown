@@ -15,8 +15,6 @@ catalog: true
 
 tags:
     - MultiCampus
-    - Java
-    - Command Line
 ---
 
 
